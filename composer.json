@@ -1,0 +1,26 @@
+{
+    "name": "maxposter/guzzle-plugin-referer",
+    "description": "Guzzle referer plugin",
+    "homepage": "http://guzzlephp.org/",
+    "keywords": ["plugin", "guzzle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxposter",
+            "email": "avorobiev@maxposter.ru",
+            "homepage": "https://github.com/maxposter-ru/guzzle-plugin-referer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "guzzle/http": "*"
+    },
+    "autoload": {
+        "psr-0": { "Maxposter\\Guzzle\\Plugin\\Referer": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
